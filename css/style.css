@@ -1,0 +1,116 @@
+
+
+        
+       html {
+        scroll-behavior: smooth;
+      }
+
+      @font-face
+       {
+
+        font-family: fonti-1;
+        src: url(my_fonts/Dosis-VariableFont_wght.ttf);
+       }
+
+
+
+       .card:hover
+       {
+        border:3px solid #75350a;
+      }
+
+     .favbott
+     {
+      margin: 9px;
+      padding: 5px;
+      border: solid rgba(255, 99, 71, 0.555);
+      background-color: rgba(255, 99, 71, 0.315);
+      border-radius: 10px;
+      font-size: medium;
+     }
+
+      .linkstyle
+      {
+        a:link 
+       {
+        text-decoration: none;
+         padding: 5px;
+         color: #381a06;
+         text-align: center;
+         font-family: fonti_1;
+         border: 3px solid #381a06;
+         border-radius: 5px;
+         background-color: #ffdab3;
+       }
+      a:hover
+       {
+         display: inline-block;
+         padding: 8px;
+         color: #381a06;
+         font-weight: bold;
+         border: 5px solid #381a06;
+         border-radius: 9px;
+         background-color: #ffdab3;
+       }
+      }
+
+      .navlinkstyle
+      {
+        a:link 
+       {
+        text-decoration: none;
+         text-align: center;
+         background-color: #ffdab3;
+       }
+      a:hover
+       {
+         padding: 8px;
+         color: #381a06;
+         font-weight: bold;
+         border: 5px solid #381a06;
+         border-radius: 9px;
+         background-color: #ffdab3;
+       }
+      } 
+      .customers
+      {
+        margin: 20px;
+      }
+      .round1 
+      {
+    border: 3px solid #ffdab3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 6px;
+      }
+
+      .nav
+      {
+        text-align: left;
+        color: #ffdab3;
+      }
+
+      .center
+      {
+        text-align: center;
+        color: #381a06;
+      }
+
+.dropdown-content a:hover {background-color: #381a06}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+      #about 
+      {
+        color: #75350a;
+        text-align: center;
+        align-items: center;
+      }
+      #about_text
+      {
+        color: #381a06;
+        font-size: 20px;
+        text-align: center;
+      }
+     
